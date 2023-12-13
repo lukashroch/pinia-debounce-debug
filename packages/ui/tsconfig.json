@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "useDefineForClassFields": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "jsx": "preserve",
+    "isolatedModules": true,
+    // "verbatimModuleSyntax": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": ["vite/client", "vite-plugin-pwa/client", "vuetify"],
+    "paths": {
+      "@intake24/ui/*": ["src/*"],
+      "@intake24/*": ["../*/src"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "webworker"]
+  },
+  "vueCompilerOptions": {
+    "target": 2.7
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+}

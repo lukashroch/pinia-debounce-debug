@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noImplicitThis": true,
+    "strict": true,
+    // "verbatimModuleSyntax": true,
+    // "importHelpers": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "paths": {
+      "@intake24/ui/*": ["packages/ui/src/*"],
+      "@intake24/*": ["packages/*/src"]
+    },
+    "types": ["node"]
+  },
+  "vueCompilerOptions": {
+    "target": 2.7
+  }
+}

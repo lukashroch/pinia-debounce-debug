@@ -1,0 +1,12 @@
+coverage
+deployment
+dev-dist
+dist
+dist-ssr
+node_modules
+public
+storage
+tmp
+
+.eslintrc.js
+*.config.js
